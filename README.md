@@ -1,7 +1,20 @@
-# Dawn
+# Dusk
 
-[![Build status](https://github.com/shopify/dawn/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Shopify/dawn/actions/workflows/ci.yml?query=branch%3Amain)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?color=informational)](/.github/CONTRIBUTING.md)
+Get developers home before dusk. Less css, more sections. 
+Property of Nietzsche Labs.
+
+## Reference Code Snippets
+
+### liquid email signup form
+
+```liquid
+{% form 'customer', id: 'email_signup' %}
+    <input type="email" name="customer[email]" id="email_signup_email" placeholder="Email address" required>
+    <button type="submit">Subscribe</button>
+{% endform %}
+```
+
+## Dawn Readme
 
 [Getting started](#getting-started) |
 [Staying up to date with Dawn changes](#staying-up-to-date-with-dawn-changes) |
